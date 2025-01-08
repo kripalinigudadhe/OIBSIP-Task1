@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wow Momo </title>
+    <link rel="stylesheet" href="oasis1.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>WOW MOMO</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Feedback</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-text">
+        </div>
+    </section>
+    <section id="home">
+        <div class="home-text">
+            <h2>Delicious, Steamy, and Flavorful Momos</h2>
+            <p>Experience the taste of authentic momos made with love and care!</p>
+            <button onclick="orderNow()">Order Now</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Wow Momo, we pride ourselves on serving the most delicious, fresh, and mouthwatering momos. Whether you're a fan of the classic steamed momos or love the crispy fried ones, or our kurkure momos , or do you like gravy , or red hot N spicy tandoori momos. We have lots of variety of momos, We have something for everyone!</p>
+        <br>
+        <p><strong>What you demand is our Order!</strong> </p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="C:\Users\Kripalini Gudadhe\OneDrive\Pictures\steam.jpeg" alt="Steamed Momo">
+                <h3>Steamed Momo</h3>
+                <p>60 rupees per plate</p>
+                <button onclick="select()">Select</button>
+            </div>
+            <div class="menu-item">
+                <img src="C:\Users\Kripalini Gudadhe\OneDrive\Pictures\fried.jpeg" alt="Fried Momo">
+                <h3>Fried Momo</h3>
+                <p>70 rupees per plate</p>
+                <button onclick="select()">Select</button>
+            </div>
+            <div class="menu-item">
+                <img src="C:\Users\Kripalini Gudadhe\OneDrive\Pictures\kurkure.jpeg" alt="Steamed Momo">
+                <h3>Kurkure Momo</h3>
+                <p>80 rupees per plate</p>
+                <button onclick="select()">Select</button>
+            </div>
+            <div class="menu-item">
+                <img src="C:\Users\Kripalini Gudadhe\OneDrive\Pictures\gravy.jpeg" alt="Fried Momo">
+                <h3>Gravy Momo</h3>
+                <p>90 rupees per plate</p>
+                <button onclick="select()">Select</button>
+            </div>
+            <div class="menu-item">
+                <img src="C:\Users\Kripalini Gudadhe\OneDrive\Pictures\tandoori.jpeg" alt="Fried Momo">
+                <h3>Tandoori Momo</h3>
+                <p>100 rupees per plate</p>
+                <button onclick="select()">Select</button>
+            </div>     
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Feedback</h2>
+            <p>If you'd like to give some feedback, feel free to send us a message:</p>
+            <form action="#" method="post">
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phonenumber">Phone Number:</label>
+                <input type="number" id="phonenumber" name="phonenumber" required>
+
+                <label for="message">Feedback:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <section id="rate">
+    <h2>Rate Us</h2>
+    <div class="stars">
+        <span class="star" data-value="1">&#9733;</span>
+        <span class="star" data-value="2">&#9733;</span>
+        <span class="star" data-value="3">&#9733;</span>
+        <span class="star" data-value="4">&#9733;</span>
+        <span class="star" data-value="5">&#9733;</span>
+    </div>
+    <div class="rating-message">
+        <p>Please rate us by clicking on the stars above!</p>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2025 Wow Momo. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

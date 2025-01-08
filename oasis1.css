@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #2a9d8f;
+    padding: 20px;
+}
+
+.navbar h1 {
+    color: white;
+    font-size: 35px;
+    display: inline-block;
+}
+
+.navbar nav {
+    margin-top: 12px;
+    display: inline-block;
+    float: right;
+}
+
+.navbar nav ul {
+    list-style: none;
+}
+
+.navbar nav ul li {
+    display: inline;
+    margin-right:20px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#home {
+    background-color:#dcd8d8 ;
+    height: 210px;
+    color: rgb(20, 17, 17);
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-text{
+    background-image: url(image/wow\ momos.jpeg);
+    background-size: cover;
+    height: 500px;
+}
+
+.home-text h2 {
+    padding-top: 30px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.home-text p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:#189e8f;
+}
+
+
+#home button {
+    background-color: #f88024;
+    padding: 12px ;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#home button:hover {
+    background-color: #f4a261;
+}
+
+#about {
+    
+    font-size: 18px;
+    height: 200px;
+    padding: 40px 15px;
+    text-align: center;
+    background-color: #2a9d8f;
+}
+#menu{
+    
+    font-size: 18px;
+    padding: 40px 15px;
+    text-align: center;
+}
+#menu button {
+    background-color: #f88024;
+    padding: 5px ;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#menu button:hover {
+    background-color: #f4a462;
+}
+.menu-items {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 3px 6px 8px rgb(111, 100, 103);
+    width: 70%;
+    height: 60%;
+    
+}
+
+footer {
+    background-color: #2a9d8f;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+#contact {
+    
+    background-color:#dcd8d8 ;
+    padding: 40px 0;
+}
+
+#contact p{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+#contact h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #f88024;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #f4a462;
+}
+
+#rate{
+    margin-top: 20px;
+    text-align: center;
+}
+.stars {
+    display: flex;
+    justify-content: center;
+}
+.star {
+    font-size: 30px;
+    color: gold;
+    cursor: pointer;
+}
+
+.rating-message {
+    margin-top: 6px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
